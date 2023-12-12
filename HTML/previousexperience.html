@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - Previous Experience</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+        <a href="../index.html" class="logo"><strong>FUJI</strong> Jobs</a>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./vacancy.html" >Vacancy</a></li>
+            <li><a href="#" class="current">My Profile</a></li>
+            <li><a href="./myapplication.html">My Application</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+    <section class="registerfirst">
+        <div class="registerfirstbox">
+            <h2>Profile</h2>
+            <span>Home/ Profile/ <strong>Previous Experience</strong></span>
+        </div>
+    </section>
+    <section class="profilebigbox">
+        <form action="" class="educationcertificateform">
+               <div class="topdetail">
+                <h2>PREVIOUS EXPERIENCE</h2>
+                <span id="educationclose"><i class="fa-solid fa-xmark"></i></span>
+               </div>
+               <input type="text" name="" id="" placeholder="JOB TITLE" required>     
+               <select name="" id="">
+                    <option value="">EXPERIENCE LEVEL</option>
+                    <option value="">Fresh/Entry</option>
+                    <option value="">Manager</option>
+                    <option value="">Master Degree</option>
+                    <option value="">Director and Above</option>
+               </select>
+               <input type="text" name="" id="" placeholder="COMPANY NAME" required>
+               <div class="currow">
+                <input type="checkbox" name="curworkchk" id="">
+               <label for="curworkchk">Currently Working Here?</label>
+               </div>
+               <span>START DATE</span>
+               <input type="date" name="" id="" required>
+               <span>END DATE</span>
+               <input type="date" name="" id="">
+               <button type="submit">Submit</button>
+        </form>
+        <div class="profilenav">
+            <h2>Profile Navigation</h2>
+            <a href="./myprofile_personal_information.html"><i class="fa-regular fa-pen-to-square picon"></i> Personal Information</a>
+            <a href="./education&certificate.html"><i class="fa-solid fa-book-open picon"></i> Education & Certificate</a>
+            <a href="./previousexperience.html" class="pcurrent"><i class="fa-solid fa-building-columns picon"></i> Previous Experience</a>
+            <a href="./dynamicquestions.html"><i class="fa-regular fa-file picon"></i> Dynamic Question</a>
+        </div>
+        <div class="educationcertificate">
+            <div class="educationbigbox">
+                <div class="educationtoprow">
+                    <h2>PREVIOUS EXPERIENCE</h2>
+                    <span id="educationadd">ADD</span>
+                </div>
+                <table class="educationbottomrow">
+                    <tr>
+                        <th>JOB TITLE</th>
+                        <th>EXPERIENCE LEVEL</th>
+                        <th>COMPANY NAME</th>
+                        <th>CURRENTLY WORKING HERE</th>
+                        <th>START DATE</th>
+                        <th>END DATE</th>
+                    </tr>
+                    <tr>
+                        <td>Web Developer</td>
+                        <td>Entry Level</td>
+                        <td>Twinkle University</td>
+                        <td>True</td>
+                        <td>10/23/2023</td>
+                        <td>10/23/2023</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footertop">
+            <div class="footertopfirst">
+                <h2>Site Map</h2>
+                <a href="../index.html">&gt; Home</a>
+                <a href="./vacancy.html">&gt; Vacancy</a>
+            </div>
+            <div class="footertopsecond">
+                <h2>Our Companies</h2>
+                <div class="footertopsecondsmallbox">
+                    <span>FUJI Food Concepts</span>
+                    <span>FUJI Ventures</span>
+                    <span>FUJI Mart Holdings Co.,Ltd.</span>
+                    <span>Premium Distribution</span>
+                    <span>FUJI Properties</span>
+                    <span>Pahtama Group</span>
+                </div>
+            </div>
+        </div>
+        <div class="footerbottom">
+            <div class="footerbottomfirst"><strong>FUJI</strong> Jobs</div>
+            <div class="footerbottomsecond">Copyright &#169; 2023 FUJI Holdings Co.,Ltd.</div>
+        </div>
+    </section>
+    <script>
+        const addeducationbtn = document.querySelector("#educationadd");
+        const educationdetailform = document.querySelector(".educationcertificateform");
+        const closeeducationdetail = document.querySelector("#educationclose");
+        addeducationbtn.addEventListener("click", function(){
+            if (educationdetailform.style.display == "flex") {
+                educationdetailform.style.display = "none";
+            }
+            else {
+                educationdetailform.style.display = "flex";
+            }
+            
+            if (certificatedetailform.style.display == "flex") {
+                certificatedetailform.style.display = "none";
+            }
+        });
+        closeeducationdetail.addEventListener("click", function(){
+            educationdetailform.style.display = "none";
+        })
+    </script>
+</body>
+</html>

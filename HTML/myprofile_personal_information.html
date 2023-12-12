@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - Profile Information</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+        <a href="../index.html" class="logo"><strong>FUJI</strong> Jobs</a>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./vacancy.html" >Vacancy</a></li>
+            <li><a href="#" class="current">My Profile</a></li>
+            <li><a href="./myapplication.html">My Application</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+    <section class="registerfirst">
+        <div class="registerfirstbox">
+            <h2>Profile</h2>
+            <span>Home/ Profile/ <strong>Personal Information</strong></span>
+        </div>
+    </section>
+    <section class="profilebigbox">
+        <div class="profilenav">
+            <h2>Profile Navigation</h2>
+            <a href="#" class="pcurrent"><i class="fa-regular fa-pen-to-square picon"></i> Personal Information</a>
+            <a href="./education&certificate.html"><i class="fa-solid fa-book-open picon"></i> Education & Certificate</a>
+            <a href="./previousexperience.html"><i class="fa-solid fa-building-columns picon"></i> Previous Experience</a>
+            <a href="./dynamicquestions.html"><i class="fa-regular fa-file picon"></i> Dynamic Question</a>
+        </div>
+        <form action="" class="profileinformation">
+            <h2>Profile Information</h2>
+            <div class="profilerow">
+                <div class="profilecolumn">
+                    <span>Title<strong>*</strong></span>
+                    <select name="" id="">
+                        <option value="">Enter Title</option>
+                        <option value="">Mr</option>
+                        <option value="">Ms</option>
+                        <option value="">Mrs</option>
+                        <option value="">Dr</option>
+                    </select>
+                </div>
+                <div class="profilecolumn">
+                    <span>Name<strong>*</strong></span>
+                    <input type="text" name="" id="" placeholder="Enter Name" required>
+                </div>
+            </div>
+            <div class="profilerow">
+                <div class="profilecolumn">
+                    <span>Date Of Birth<strong>*</strong></span>
+                    <input type="date" name="" id="" required>
+                </div>
+                <div class="profilecolumn">
+                    <span>NRC / Passport Number<strong>*</strong></span>
+                    <input type="text" name="" id="" placeholder="NRC/ Passport Number" required>
+                </div>
+            </div>
+            <div class="profilerow">
+                <div class="profilecolumn">
+                    <span>Phone<strong>*</strong></span>
+                    <input type="text" name="" id="" placeholder="Mobile Number" required>
+                </div>
+                <div class="profilecolumn">
+                    <span>Email Address</span>
+                    <input type="text" name="" id="" placeholder="Email Address">
+                </div>
+            </div>
+            <div class="profilerow">
+                <div class="profilecolumn">
+                    <span>Current Living Address<strong>*</strong></span>
+                    <input type="text" name="" id="" placeholder="Current Living Address" required>
+                </div>
+                <div class="profilecolumn">
+                    <span>Permanent Living Address</span>
+                    <input type="text" name="" id="" placeholder="Permanent Living Address">
+                </div>
+            </div>
+            <div class="profilerow">
+                <div class="profilecolumn">
+                    <span>How did you know about us?</span>
+                    <select name="" id="">
+                        <option value="">How did you know about us?</option>
+                        <option value="">Facebook</option>
+                        <option value="">Linkedin</option>
+                        <option value="">Friends</option>
+                        <option value="">Colleagues</option>
+                        <option value="">Billboard</option>
+                        <option value="">Job Fair</option>
+                    </select>
+                </div>
+                <div class="profilecolumn">
+                    <span>What is your current status?</span>
+                    <select name="" id="">
+                        <option value="">What is your current status?</option>
+                        <option value="">Currently employed but looking for new opportunity</option>
+                        <option value="">Actively looking for new opportunity and can join immediately</option>
+                    </select>
+                </div>
+            </div>
+            <h3>PREFERRED WORK LOCATION REGION</h3>
+            <div class="profilerow">
+                <div class="profilecolumn">
+                    <span>Region<strong>*</strong></span>
+                    <select name="" id="">
+                        <option value="">Select Region</option>
+                            <option value="">AYEYARWADDY</option>
+                            <option value="">BAGO EAST</option>
+                            <option value="">BAGO WEST</option>
+                            <option value="">CHIN</option>
+                            <option value="">KACHIN</option>
+                            <option value="">KAYAH</option>
+                            <option value="">KAYIN</option>
+                            <option value="">MAGWAY</option>
+                            <option value="">MANDALAY</option>
+                            <option value="">MON</option>
+                            <option value="">NAYPYIDAW</option>
+                            <option value="">RAKHINE</option>
+                            <option value="">SAGAING</option>
+                            <option value="">SHAN EAST</option>
+                            <option value="">SHAN NORTH</option>
+                            <option value="">SHAN SOUTH</option>
+                            <option value="">TANINTHARYI</option>
+                            <option value="">YANGON</option>
+                    </select>
+                </div>
+                <div class="profilecolumn">
+                    <span>Preferred Job Category<strong>*</strong></span>
+                    <select name="" id="">
+                        <option value="">Select Category</option>
+                        <option value="">Administrative</option>
+                        <option value="">Customer Service</option>
+                        <option value="">Finance/Account</option>
+                        <option value="">Human Resource</option>
+                        <option value="">Information Technology</option>
+                        <option value="">Manufacturing/Production</option>
+                        <option value="">Marketing</option>
+                        <option value="">Merchandizing/Category</option>
+                        <option value="">Operation (Retail, F&B, Warehouse)</option>
+                        <option value="">Others</option>
+                        <option value="">Sales/Marketing/Business Development</option>
+                        <option value="">Supply Chain and Logistics</option>
+                    </select>
+                    
+                </div>
+            </div>
+            <h3>UPLOAD CV</h3>
+            <div class="specialrow">
+                <div class="profilecolumn">
+                    <span>Resume<strong>*</strong></span>
+                    <input type="file" name="" id="">
+                    
+                </div>
+            </div>
+            <div class="profileaccept">
+                <input type="checkbox" name="profchk" id="" required>
+                <label for="profchk">I HAVE READ AND ACCEPT <a href="./privacypolicy.html">PRIVACY POLICY</a></label>
+            </div>
+            <div class="bottombuttom">
+                    <button type="submit"><i class="fa-regular fa-floppy-disk"></i> Update Profile</button>
+            </div>
+        </form>
+    </section>
+    <section class="footer">
+        <div class="footertop">
+            <div class="footertopfirst">
+                <h2>Site Map</h2>
+                <a href="../index.html">&gt; Home</a>
+                <a href="./vacancy.html">&gt; Vacancy</a>
+            </div>
+            <div class="footertopsecond">
+                <h2>Our Companies</h2>
+                <div class="footertopsecondsmallbox">
+                    <span>FUJI Food Concepts</span>
+                    <span>FUJI Ventures</span>
+                    <span>FUJI Mart Holdings Co.,Ltd.</span>
+                    <span>Premium Distribution</span>
+                    <span>FUJI Properties</span>
+                    <span>Pahtama Group</span>
+                </div>
+            </div>
+        </div>
+        <div class="footerbottom">
+            <div class="footerbottomfirst"><strong>FUJI</strong> Jobs</div>
+            <div class="footerbottomsecond">Copyright &#169; 2023 FUJI Holdings Co.,Ltd.</div>
+        </div>
+    </section>
+</body>
+</html>

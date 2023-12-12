@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacancy</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+        <a href="../index.html" class="logo"><strong>FUJI</strong> Jobs</a>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#" class="current">Vacancy</a></li>
+            <li><a href="./myprofile_personal_information.html">My Profile</a></li>
+            <li><a href="./myapplication.html">My Application</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+    <section class="vacancyfirst">
+        <div class="vacancyfirstsmallbox">
+            <div class="vacancyfirsttop">
+                <h2>Vacancy</h2>
+                <span>Home/ <strong>Vacancy</strong></span>
+            </div>
+            <div class="vacancyfirstbottom">
+                <form action="" class="vacancyfirstform">
+                    <div class="keywords">
+                        <span>* Search by Keywords</span>
+                        <input type="text" name="" id="" placeholder="Enter Keywords">
+                    </div>
+                    <div class="textcompany">
+                        <span>* Search by Company</span>
+                        <select name="" id="">
+                            <option value="">Company</option>
+                            <option value="">Premium Distribution</option>
+                            <option value="">CMHL</option>
+                            <option value="">Pahtama Group</option>
+                            <option value="">City Properties</option>
+                            <option value="">City Food Concepts</option>
+                            <option value="">City Ventures</option>
+                        </select>
+                    </div>
+                    <div class="textregion">
+                        <span>* Search by Region</span>
+                        <select name="" id="">
+                            <option value="">Select Region</option>
+                            <option value="">AYEYARWADDY</option>
+                            <option value="">BAGO EAST</option>
+                            <option value="">BAGO WEST</option>
+                            <option value="">CHIN</option>
+                            <option value="">KACHIN</option>
+                            <option value="">KAYAH</option>
+                            <option value="">KAYIN</option>
+                            <option value="">MAGWAY</option>
+                            <option value="">MANDALAY</option>
+                            <option value="">MON</option>
+                            <option value="">NAYPYIDAW</option>
+                            <option value="">RAKHINE</option>
+                            <option value="">SAGAING</option>
+                            <option value="">SHAN EAST</option>
+                            <option value="">SHAN NORTH</option>
+                            <option value="">SHAN SOUTH</option>
+                            <option value="">TANINTHARYI</option>
+                            <option value="">YANGON</option>
+                        </select>
+                    </div>
+                    <div class="textbutton">
+                        <span>sumitbutton</span>
+                        <input type="submit" value="SUBMIT">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="vacancysecond">
+        <div class="vacancysecondtopbox">We're always looking for talented candidates to join our team:</div>
+        <div class="vacancysecondbottombox">
+            <div class="vacancyslidebox">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="../Images/Company_logo/logo-city-venture.png" alt=""></div>
+                      <div class="swiper-slide"><img src="../Images/Company_logo/logo-cityfood.png" alt=""></div>
+                      <div class="swiper-slide"><img src="../Images/Company_logo/logo-cityproperties.png" alt=""></div>
+                      <div class="swiper-slide"><img src="../Images/Company_logo/logo-cmhl-new.png" alt=""></div>
+                      <div class="swiper-slide"><img src="../Images/Company_logo/logo-cmhl.png" alt=""></div>
+                      <div class="swiper-slide"><img src="../Images/Company_logo/logo-pahtama.png" alt=""></div>
+                      <div class="swiper-slide"><img src="../Images/Company_logo/logo-premiumm.png" alt=""></div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section class="vacancythird">
+        <form action="" class="vacancythirdtop">
+            <span>Filter By: </span>
+            <select name="" id="">
+                <option value="">Select Company</option>
+                <option value="">Fuji Holdings Limited</option>
+                <option value="">Fuji Mart Holding</option>
+                <option value="">Fuji Properties</option>
+                <option value="">Fuji Food Concepts</option>
+                <option value="">Fuji Ventures</option>
+                <option value="">Pahtama Group</option>
+                <option value="">Premium Distribution</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+        <div class="vacancythirdbottom">
+            <a href="./vacancydetail.html" class="vacancythirdbottomsmallbox">
+                <div class="vacthirdimg">
+                    <img src="../Images/Company_logo/logo-premiumm.png" alt="">
+                </div>
+                <h2>Sales Executive</h2>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>COMPANY</h3>
+                        <span>Premium Distribution</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>CONTRACT TYPE</h3>
+                        <span>Full Time</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>JOB FUNCTION</h3>
+                        <span>Sales/Marketing/Business Development</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>EXPERIENCE LEVEL</h3>
+                        <span>Non-management Level</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>CLOSED ON</h3>
+                        <span>31-Oct-2023</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>LOCATION</h3>
+                        <span>NAY PYI DAW</span>
+                    </div>
+                </div>
+            </a>
+            <a href="./vacancydetail.html" class="vacancythirdbottomsmallbox">
+                <div class="vacthirdimg">
+                    <img src="../Images/Company_logo/logo-premiumm.png" alt="">
+                </div>
+                <h2>Sales Executive</h2>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>COMPANY</h3>
+                        <span>Premium Distribution</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>CONTRACT TYPE</h3>
+                        <span>Full Time</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>JOB FUNCTION</h3>
+                        <span>Sales/Marketing/Business Development</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>EXPERIENCE LEVEL</h3>
+                        <span>Non-management Level</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>CLOSED ON</h3>
+                        <span>31-Oct-2023</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>LOCATION</h3>
+                        <span>NAY PYI DAW</span>
+                    </div>
+                </div>
+            </a>
+            <a href="./vacancydetail.html" class="vacancythirdbottomsmallbox">
+                <div class="vacthirdimg">
+                    <img src="../Images/Company_logo/logo-premiumm.png" alt="">
+                </div>
+                <h2>Sales Executive</h2>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>COMPANY</h3>
+                        <span>Premium Distribution</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>CONTRACT TYPE</h3>
+                        <span>Full Time</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>JOB FUNCTION</h3>
+                        <span>Sales/Marketing/Business Development</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>EXPERIENCE LEVEL</h3>
+                        <span>Non-management Level</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>CLOSED ON</h3>
+                        <span>31-Oct-2023</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>LOCATION</h3>
+                        <span>NAY PYI DAW</span>
+                    </div>
+                </div>
+            </a>
+            <a href="./vacancydetail.html" class="vacancythirdbottomsmallbox">
+                <div class="vacthirdimg">
+                    <img src="../Images/Company_logo/logo-premiumm.png" alt="">
+                </div>
+                <h2>Sales Executive</h2>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>COMPANY</h3>
+                        <span>Premium Distribution</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>CONTRACT TYPE</h3>
+                        <span>Full Time</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>JOB FUNCTION</h3>
+                        <span>Sales/Marketing/Business Development</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>EXPERIENCE LEVEL</h3>
+                        <span>Non-management Level</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>CLOSED ON</h3>
+                        <span>31-Oct-2023</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>LOCATION</h3>
+                        <span>NAY PYI DAW</span>
+                    </div>
+                </div>
+            </a>
+            <a href="./vacancydetail.html" class="vacancythirdbottomsmallbox">
+                <div class="vacthirdimg">
+                    <img src="../Images/Company_logo/logo-premiumm.png" alt="">
+                </div>
+                <h2>Sales Executive</h2>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>COMPANY</h3>
+                        <span>Premium Distribution</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>CONTRACT TYPE</h3>
+                        <span>Full Time</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>JOB FUNCTION</h3>
+                        <span>Sales/Marketing/Business Development</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>EXPERIENCE LEVEL</h3>
+                        <span>Non-management Level</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>CLOSED ON</h3>
+                        <span>31-Oct-2023</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>LOCATION</h3>
+                        <span>NAY PYI DAW</span>
+                    </div>
+                </div>
+            </a>
+            <a href="./vacancydetail.html" class="vacancythirdbottomsmallbox">
+                <div class="vacthirdimg">
+                    <img src="../Images/Company_logo/logo-premiumm.png" alt="">
+                </div>
+                <h2>Sales Executive</h2>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>COMPANY</h3>
+                        <span>Premium Distribution</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>CONTRACT TYPE</h3>
+                        <span>Full Time</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>JOB FUNCTION</h3>
+                        <span>Sales/Marketing/Business Development</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>EXPERIENCE LEVEL</h3>
+                        <span>Non-management Level</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>CLOSED ON</h3>
+                        <span>31-Oct-2023</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>LOCATION</h3>
+                        <span>NAY PYI DAW</span>
+                    </div>
+                </div>
+            </a>
+            <a href="./vacancydetail.html" class="vacancythirdbottomsmallbox">
+                <div class="vacthirdimg">
+                    <img src="../Images/Company_logo/logo-premiumm.png" alt="">
+                </div>
+                <h2>Sales Executive</h2>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>COMPANY</h3>
+                        <span>Premium Distribution</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>CONTRACT TYPE</h3>
+                        <span>Full Time</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>JOB FUNCTION</h3>
+                        <span>Sales/Marketing/Business Development</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>EXPERIENCE LEVEL</h3>
+                        <span>Non-management Level</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>CLOSED ON</h3>
+                        <span>31-Oct-2023</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>LOCATION</h3>
+                        <span>NAY PYI DAW</span>
+                    </div>
+                </div>
+            </a>
+            <a href="./vacancydetail.html" class="vacancythirdbottomsmallbox">
+                <div class="vacthirdimg">
+                    <img src="../Images/Company_logo/logo-premiumm.png" alt="">
+                </div>
+                <h2>Sales Executive</h2>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>COMPANY</h3>
+                        <span>Premium Distribution</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>CONTRACT TYPE</h3>
+                        <span>Full Time</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>JOB FUNCTION</h3>
+                        <span>Sales/Marketing/Business Development</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>EXPERIENCE LEVEL</h3>
+                        <span>Non-management Level</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>CLOSED ON</h3>
+                        <span>31-Oct-2023</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>LOCATION</h3>
+                        <span>NAY PYI DAW</span>
+                    </div>
+                </div>
+            </a>
+            <a href="./vacancydetail.html" class="vacancythirdbottomsmallbox">
+                <div class="vacthirdimg">
+                    <img src="../Images/Company_logo/logo-premiumm.png" alt="">
+                </div>
+                <h2>Sales Executive</h2>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>COMPANY</h3>
+                        <span>Premium Distribution</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>CONTRACT TYPE</h3>
+                        <span>Full Time</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>JOB FUNCTION</h3>
+                        <span>Sales/Marketing/Business Development</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>EXPERIENCE LEVEL</h3>
+                        <span>Non-management Level</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>CLOSED ON</h3>
+                        <span>31-Oct-2023</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>LOCATION</h3>
+                        <span>NAY PYI DAW</span>
+                    </div>
+                </div>
+            </a>
+            <a href="./vacancydetail.html" class="vacancythirdbottomsmallbox">
+                <div class="vacthirdimg">
+                    <img src="../Images/Company_logo/logo-premiumm.png" alt="">
+                </div>
+                <h2>Sales Executive</h2>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>COMPANY</h3>
+                        <span>Premium Distribution</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>CONTRACT TYPE</h3>
+                        <span>Full Time</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>JOB FUNCTION</h3>
+                        <span>Sales/Marketing/Business Development</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>EXPERIENCE LEVEL</h3>
+                        <span>Non-management Level</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>CLOSED ON</h3>
+                        <span>31-Oct-2023</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>LOCATION</h3>
+                        <span>NAY PYI DAW</span>
+                    </div>
+                </div>
+            </a>
+            <a href="./vacancydetail.html" class="vacancythirdbottomsmallbox">
+                <div class="vacthirdimg">
+                    <img src="../Images/Company_logo/logo-premiumm.png" alt="">
+                </div>
+                <h2>Sales Executive</h2>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>COMPANY</h3>
+                        <span>Premium Distribution</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>CONTRACT TYPE</h3>
+                        <span>Full Time</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>JOB FUNCTION</h3>
+                        <span>Sales/Marketing/Business Development</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>EXPERIENCE LEVEL</h3>
+                        <span>Non-management Level</span>
+                    </div>
+                </div>
+                <div class="vacthirdrow">
+                    <div class="vacthirdcolumn">
+                        <h3>CLOSED ON</h3>
+                        <span>31-Oct-2023</span>
+                    </div>
+                    <div class="vacthirdcolumn">
+                        <h3>LOCATION</h3>
+                        <span>NAY PYI DAW</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footertop">
+            <div class="footertopfirst">
+                <h2>Site Map</h2>
+                <a href="../index.html">&gt; Home</a>
+                <a href="#">&gt; Vacancy</a>
+            </div>
+            <div class="footertopsecond">
+                <h2>Our Companies</h2>
+                <div class="footertopsecondsmallbox">
+                    <span>FUJI Food Concepts</span>
+                    <span>FUJI Ventures</span>
+                    <span>FUJI Mart Holdings Co.,Ltd.</span>
+                    <span>Premium Distribution</span>
+                    <span>FUJI Properties</span>
+                    <span>Pahtama Group</span>
+                </div>
+            </div>
+        </div>
+        <div class="footerbottom">
+            <div class="footerbottomfirst"><strong>FUJI</strong> Jobs</div>
+            <div class="footerbottomsecond">Copyright &#169; 2023 FUJI Holdings Co.,Ltd.</div>
+        </div>
+    </section>
+</body>
+<script>
+    var swiper = new Swiper(".swiper", {
+      slidesPerView: 4,
+      spaceBetween: 20,
+      slidesPerGroup: 4,
+      centerSlide: 'true',
+      fade: 'true',
+      gragCursor: 'true',
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+
+      autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                loop: true,
+
+      breakpoints: {
+        0: {
+            slidesPerView:2,
+        },
+        
+        
+        400: {
+            slidesPerView:3,
+        },
+        
+        
+        590: {
+            slidesPerView:4,
+        },
+
+        750: {
+            slidesPerView:5,
+        },
+
+        900: {
+            slidesPerView: 6,
+        },
+      },
+      
+    });
+  </script>
+</html>
